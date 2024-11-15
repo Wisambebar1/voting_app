@@ -1,10 +1,13 @@
 import { useState } from 'react'
 import './App.css'
+import Voting_page from './Components/Voting_page'
 
 function App() {
 
   return (
-    <div></div>
+    <div>
+      <Voting_page/>
+    </div>
   )
 }
 
