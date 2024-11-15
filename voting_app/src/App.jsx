@@ -15,6 +15,9 @@ function App() {
       setIsLoading(false);
     }, 1000);
   };
+  const changeVote = () => {
+    setVote(null);
+  };
   return (
     <div>
     </div>
