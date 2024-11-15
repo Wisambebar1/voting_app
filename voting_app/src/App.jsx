@@ -18,6 +18,11 @@ function App() {
   const changeVote = () => {
     setVote(null);
   };
+  const logout = () => {
+    setUser(null);
+    setVote(null);
+    setView('login');
+  };
   return (
     <div>
     </div>
