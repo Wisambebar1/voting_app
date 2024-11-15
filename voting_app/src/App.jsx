@@ -8,6 +8,13 @@ function App() {
     setUser('User');
     setView('vote');
   };
+  const handleVote = (voteOption) => {
+    setIsLoading(true);
+    setTimeout(() => {
+      setVote(voteOption);
+      setIsLoading(false);
+    }, 1000);
+  };
   return (
     <div>
     </div>
