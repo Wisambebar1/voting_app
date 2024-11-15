@@ -7,6 +7,7 @@ const Voting_page=()=>{
                 <input type="text" name="Email" required></input>
                 <label htmlFor="PassWord">Password:</label>
                 <input type="text"></input>
+                <button type="submit">Submit</button>
             </form>
         </div>
     )
