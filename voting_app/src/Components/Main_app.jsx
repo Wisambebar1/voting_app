@@ -22,9 +22,4 @@ const Main_app=()=>{
         default:
           return <div>Unknown View</div>;
       }
-    return(
-        <div>
-
-        </div>
-    )
 }
