@@ -1,11 +1,15 @@
-import { useState } from 'react'
-import './App.css'
+import './App.css';
+import UserProvider from './Components/Context';
+import Main_app from './Components/Main_app';
 
 function App() {
-
   return (
-    <div></div>
-  )
+    <div>
+      <UserProvider>
+        <Main_app />
+      </UserProvider>
+    </div>
+  );
 }
 
-export default App
+export default App;
