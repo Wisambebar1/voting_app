@@ -1,14 +1,15 @@
-import './App.css'
-import { UserContext } from './Components/Context'
-import Main_app from "./Components/Main_app"
+import './App.css';
+import UserProvider from './Components/Context';
+import Main_app from './Components/Main_app';
+
 function App() {
   return (
     <div>
-      <UserContext.Provider>
-        <Main_app/>
-      </UserContext.Provider>
+      <UserProvider>
+        <Main_app />
+      </UserProvider>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

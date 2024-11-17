@@ -1,4 +1,4 @@
-import { useUserContext } from '../context';
+import { useUserContext } from './Context';
 const AdminPage = () => {
   const { user, vote, logout } = useUserContext();
 

@@ -1,7 +1,7 @@
 import { useUserContext } from "./Context";
-import LoginPage from './components/LoginPage';
-import VotingPage from './components/VotingPage';
-import AdminPage from './components/AdminPage';
+import LoginPage from './LoginPage'
+import VotingPage from './VotingPage';
+import AdminPage from './AdminPage';
 const Main_app=()=>{
     const { user, vote, isLoading, view, login, handleVote, changeVote, logout } = useUserContext();
     switch (view) {
@@ -23,3 +23,4 @@ const Main_app=()=>{
           return <div>Unknown View</div>;
       }
 }
+export default Main_app

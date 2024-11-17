@@ -1,4 +1,4 @@
-import { useUserContext } from '../context';
+import { useUserContext } from './Context';
 import Spinner from './Spinner';
 
 const VotingPage = () => {
